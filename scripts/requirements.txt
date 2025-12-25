@@ -1,0 +1,11 @@
+# Python dependencies for Maze Generator & Solver
+# ファンタジーRPG迷宮探索シミュレーター - 必要なライブラリ
+
+# 数値計算・配列操作
+numpy>=1.24.0
+
+# 視覚化・グラフ描画
+matplotlib>=3.7.0
+japanize-matplotlib>=1.1.3
+setuptools>=67.7.2
+# 標準ライブラリのみで動作するため、追加の依存関係は最小限
