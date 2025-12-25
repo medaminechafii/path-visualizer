@@ -28,19 +28,26 @@
 
 ## 実行方法
 
-### 1. 依存関係のインストール
+### 1. venvのセットアップ
+
+```bash
+cd scripts
+python -m venv venv
+source venv/bin/activate
+```
+
+### 2. 依存関係のインストール
 
 ```bash
 pip install -r requirements.txt
 ```
-
-### 2. プログラムの実行
+### 3. プログラムの実行
 
 ```bash
 python main.py
 ```
 
-### 3. モード選択
+### 4. モード選択
 
 - **インタラクティブモード**: 自分でアルゴリズムを選択して実行
 - **デモモード**: 全アルゴリズムを自動的に実行して比較
